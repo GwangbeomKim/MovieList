@@ -1,0 +1,35 @@
+#container
+{
+   width:95%;
+   margin: auto auto auto auto;
+   display:grid;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows:  auto auto auto auto auto auto auto auto auto auto 200px;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   margin-left: 1em;
+   margin-right: 1em;
+
+}
+body 
+{
+  text-align: center; 
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: 2px 2px black ;
+  color: white;
+}
+P
+{
+  display: block;
+}
+
+#video-background {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
